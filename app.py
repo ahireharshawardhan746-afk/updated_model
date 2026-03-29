@@ -94,8 +94,7 @@ if st.button("Predict Global Sales 🚀"):
         publisher,
         na_sales,
         eu_sales,
-        jp_sales,
-        other_sales
+        jp_sales
     ]])
 
     prediction = model.predict(input_data)
