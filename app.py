@@ -19,12 +19,7 @@ st.markdown("Predict **Global Sales** of a video game using Linear Regression")
 
 st.divider()
 
-# Mapping dictionaries (example — update based on your dataset encoding)
-
- 'XB', 'GBA', 'GC',
-       '3DS', 'PSV', 'PS4', 'N64', 'SNES', 'XOne', 'SAT', 'WiiU', '2600',
-       'NES', 'GB', 'DC', 'GEN', 'NG', 'SCD', 'WS', '3DO', 'TG16', 'GG',
-       'PCFX'
+# Mapping dictionaries (example — update based on your dataset enc
 
 platform_dict = {
     "DS": 0,
