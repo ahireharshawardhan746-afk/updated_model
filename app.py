@@ -81,7 +81,7 @@ publisher = publisher_dict[publisher_name]
 na_sales = st.number_input("NA Sales", min_value=0.0)
 eu_sales = st.number_input("EU Sales", min_value=0.0)
 jp_sales = st.number_input("JP Sales", min_value=0.0)
-other_sales = st.number_input("Other Sales", min_value=0.0)
+
 
 
 
